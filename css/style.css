@@ -1,0 +1,26 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+  margin: 10px;
+  padding: 35px;
+}
+
+.list-group {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 25px;
+  margin-bottom: 0;
+}
+
+.rightPincode{
+  border: 5px solid green;
+}
+.wrongPincode{
+  border: 5px solid red;
+}
